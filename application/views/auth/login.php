@@ -407,7 +407,7 @@
         <!-- Left Column: Hero Brand Panel -->
         <div class="hero-panel">
             <div class="hero-brand">
-                <i class="fas fa-car-side"></i>
+               <i class="fas fa-laptop"></i>
                 <h2>PT.<span>Maju Jaya</span></h2>
             </div>
             
@@ -434,12 +434,6 @@
                 <span>v2.1 Stable</span>
             </div>
 
-            <!-- CSS Vector Sports Car Shape overlay -->
-            <div class="car-vector-container">
-                <div class="car-top"></div>
-                <div class="car-body"></div>
-                <div class="road-line"></div>
-            </div>
         </div>
 
         <!-- Right Column: Login Core Form Panel -->

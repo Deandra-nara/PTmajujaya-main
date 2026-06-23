@@ -39,7 +39,7 @@ $role = $this->session->userdata('role');
                 <p class="font-weight-bold text-xs mb-0">Total produk</p>
             </div>
             <div class="icon">
-                <i class="fas fa-car"></i>
+                <i class="fas fa-laptop"></i>
             </div>
             <?php if ($role == 'admin'): ?>
                 <a href="<?= site_url('produk') ?>" class="small-box-footer text-xs">Kelola <i class="fas fa-arrow-circle-right"></i></a>
@@ -75,7 +75,7 @@ $role = $this->session->userdata('role');
                 <p class="font-weight-bold text-xs mb-0">Total sales</p>
             </div>
             <div class="icon">
-                <i class="fas fa-hourglass-half"></i>
+                <i class="fas fa-user-cog"></i>
             </div>
             <?php if ($role == 'admin'): ?>
                 <a href="<?= site_url('sales') ?>" class="small-box-footer text-xs">Kelola <i class="fas fa-arrow-circle-right"></i></a>
@@ -116,7 +116,7 @@ $role = $this->session->userdata('role');
         </div>
 
         <div class="icon">
-            <i class="fas fa-wallet"></i>
+            <i class="fas fa-file-invoice"></i>
         </div>
 
         <a href="<?= site_url('laporan') ?>" class="small-box-footer text-xs text-white" style="color:rgba(255,255,255,0.8) !important;">

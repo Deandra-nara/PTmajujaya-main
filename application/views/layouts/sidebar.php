@@ -7,7 +7,7 @@ $role = $this->session->userdata('role');
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= site_url('dashboard') ?>" class="brand-link">
-        <i class="fas fa-car-side brand-image mt-1 text-primary elevation-3" style="font-size: 1.5rem; opacity: .8"></i>
+        <i class="fas fa-laptop brand-image mt-1 text-primary elevation-3" style="font-size: 1.5rem; opacity: .8"></i>
         <span class="brand-text font-weight-bold text-white">PT. Maju Jaya</span>
     </a>
 
@@ -34,7 +34,7 @@ $role = $this->session->userdata('role');
                 <!-- Dashboard -->
 <li class="nav-item">
     <a href="<?= site_url('dashboard') ?>" class="nav-link <?= ($uri == 'dashboard' || $uri == '') ? 'active' : '' ?>">
-        <i class="nav-icon fas fa-tachometer-alt"></i>
+        <i class="nav-icon fas fa-home"></i>
         <p>Dashboard</p>
     </a>
 </li>
@@ -75,7 +75,7 @@ $role = $this->session->userdata('role');
 
     <li class="nav-item">
         <a href="<?= site_url('sales_order') ?>" class="nav-link <?= $uri == 'sales_order' ? 'active' : '' ?>">
-            <i class="nav-icon fas fa-file-invoice"></i>
+            <i class="nav-icon fas fa-shopping-cart"></i>
             <p>Order</p>
         </a>
     </li>
@@ -90,7 +90,7 @@ $role = $this->session->userdata('role');
     <a href="<?= site_url('laporan') ?>"
        class="nav-link">
 
-       <i class="nav-icon fas fa-chart-bar"></i>
+       <i class="nav-icon fas fa-file-invoice"></i>
 
        <p>Laporan Penjualan</p>
     </a>
