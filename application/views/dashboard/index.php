@@ -111,7 +111,7 @@ $role = $this->session->userdata('role');
     <div class="small-box bg-teal shadow-xs text-white">
         <div class="inner text-white">
             <h5 class="font-weight-bold text-white mb-1" style="font-size:1.15rem; margin-top:5px;">
-    Rp<?= number_format(isset($pendapatan_bulan_ini) ? $pendapatan_bulan_ini : 0, 0, ',', '.') ?></h5>  <p class="font-weight-bold text-xs mb-0 text-white-50" style="margin-top: 15px;">Revenue Bulan Ini</p>
+    Rp<?= number_format(isset($pendapatan_bulan_ini) ? $pendapatan_bulan_ini : 0, 0, ',', '.') ?></h5>  <p class="font-weight-bold text-xs mb-0 text-white-50" style="margin-top: 15px;">Laporan Bulan Ini</p>
         </h5>
         </div>
 
@@ -120,7 +120,7 @@ $role = $this->session->userdata('role');
         </div>
 
         <a href="<?= site_url('laporan') ?>" class="small-box-footer text-xs text-white" style="color:rgba(255,255,255,0.8) !important;">
-            Laporan <i class="fas fa-arrow-circle-right"></i>
+            Kelola <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 </div>
