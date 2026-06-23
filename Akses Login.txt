@@ -1,0 +1,7 @@
+ADMIN
+ID : admin
+PASS : admin123
+
+MANAGER
+ID : manager
+PASS : manager123
